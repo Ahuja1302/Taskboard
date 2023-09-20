@@ -1,0 +1,64 @@
+    .container {
+        position: relative; 
+        height: calc(100vh - 5.7rem);
+        padding: 3rem;
+        display: flex;
+        gap: 5rem;
+    }
+    .addList-img{
+        position: absolute;
+        right: 3rem;
+        bottom: 3rem; 
+    }
+    .modal{
+        background-color: white;
+        padding: 2rem 2rem 3rem 2rem;
+        height: 35vh;
+        display: flex; 
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .popup-icons{
+        display: flex; 
+        justify-content: space-between;
+    }
+    .popup-icons img{
+        height: 18px;
+        width: 18px;
+        
+    }
+    .popup-overlay {
+        background: rgb(103 144 190 / 50%);
+      }
+
+    .new-list{
+        display: flex; 
+        justify-content: space-around;
+        align-items: center;
+        gap: 6px; 
+        background-color: #fff;
+        height: 4rem;
+        width: 25vw;
+        padding: 2px 2rem;
+    }
+    .my-tasks{
+        padding: 10px 11px 14px 18px;
+        width: 15rem;
+        height: fit-content;
+        border: 1px solid #1a4187;  
+    }
+    .task-heading{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 19px;
+        font-size: 20px;
+    }
+    
+
+    .add-task, .task{
+        display: flex;
+        gap: 14px;
+        font-size: 17px;
+        margin: 14px 0; 
+    }
